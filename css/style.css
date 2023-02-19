@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+/* Fuente: 'Ubuntu', sans-serif; */
+
+/* Colores
+#17af95
+#0fb6cc
+#1a1449
+#FFFF
+Background: #EDEFF9
+*/ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+body {
+    overflow-x: hidden;
+    background-color:#EDEFF9
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav bar */
+header {
+    display:flex;   
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0px;
+    background-color:white;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a1449;
+    padding: 20px 10px;
+}
+
+.logo img {
+    width: 150px;  
+}
+.navbar {
+    display: flex;
+    gap: 106px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+.navbar li a {
+    color: #1a1449;
+}
+
+
+
+
+/* Footer */
+
+footer{
+    background-color:#0BB5EA;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 14px;
+    color:white;
+    margin-top: 20px;
+}
+
+footer section img {
+    width: 15px;
+    height: 15px;
+}
+
+.footer-1{
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 20px;
+    
+}
+
+.tel {
+    margin-right: 5px;
+}
+.whatsapp {
+    margin-right: 5px;
+}
+
+.ig-fc {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer-2 a {
+    color: white;
+}
+.footer-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+.footer-3 img {
+    margin-right: 10px;
+}
+
+.footer-3 a {
+    color: white;
+}
+
+
+/* Planes */
+
+
+.planes-1 {
+    color: #1a1449;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+h1 {
+    color: #17af95;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+
+.cuadro-plan-1 {
+    border: solid;
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+    width: 269px;
+    height: 409px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    left: 360px; 
+
+}
+.cuadro-plan-2 {
+    border: solid;
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+    width: 269px;
+    height: 409px;
+    background-color: white;
+    display:inline-block;
+    margin: 0px 5px;
+    position: relative;
+    left: 380px
+}
+
+/* Cobertura */
+
+.mapa-zona-este {
+    width: 300px;
+    height: 300px; 
+    display: inline-block;
+    position: relative;
+    left:300px;
+    
+    
+}
+.mapa-texto {
+    font-size:20px;
+    text-align: center;
+    width: 269px;
+    height: 409px;
+    display: inline-block;
+    position: relative;
+    left: 400px
+
+    
+}
+.speedometer {
+    width: 30px;
+    height: 30px; 
+    display: inline-block;
+    position: relative;
+    left: 1100px;
+}
+
+.speedtest {
+    border: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size:16px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: 1100px
+}
+
+.go {
+        width: 300px;
+        height: 300px;
+        border: 5px solid;
+        border-color:#0FB6CC ;
+        border-radius: 50%;
+        display: ruby-text-container;
+        
+    }
+
+    .go {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:0px auto;
+        padding:3%
+    }
+    
+    .go h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0BB5EA;
+    text-align: center;
+    }
+
+    .texto-servidor {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #0BB5EA;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .contacto-h1 {
+        padding: 10px;
+    }
+    .contacto-1 {
+        font-family:'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color:#0FB6CC;
+        
+    }
+
+    .contacto-2 {
+        font-family:'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        color:#1a1449;
+        line-height: 50px;
+        
+
+    }
+
+    .contacto-3 {
+        font-family:'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color:#0FB6CC;
+        
+    }
+
+    .contacto-4 {
+        font-family:'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        color:#1a1449; 
+        line-height: 50px;
+    }
+
+    .contacto-5 {
+        font-family:'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color:#0FB6CC;
+        
+    }
+
+    .contacto-6 {
+        font-family:'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        color:#1a1449;  
+        line-height: 50px;
+    }
+
+    .contacto-7 {
+        font-family:'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color:#0FB6CC;
+        
+    }
+
+    .contacto-8 {
+        font-family:'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        color:#1a1449;    
+        line-height: 50px;
+    }
+
+    .contacto-contenedor {
+        position: relative;
+        left: 70px;
+    }
+
+.pin-contacto {
+    height: 30px;
+    width: 30px;
+    top: 305px;
+    left: 60px;
+    position: absolute;
+}
+
+.mail-contacto {
+    height: 30px;
+    width: 30px;
+    top: 380px;
+    left: 60px;
+    position: absolute;
+}
+
+.phone-contacto {
+    height: 30px;
+    width: 30px;
+    top: 450px;
+    left: 60px;
+    position: absolute;
+}
+
+.whatsapp-contacto {
+    height: 30px;
+    width: 30px;
+    top: 516px;
+    left: 60px;
+    position: absolute;
+}
