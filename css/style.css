@@ -218,63 +218,12 @@ h1 {
 
 /* Test */
 
-.speedometer {
-    width: 30px;
-    height: 30px; 
-    display: inline-block;
-    position: relative;
-    left: 1100px;
+.speed-test {
+    display: flex;
+    justify-content: center;
 }
 
-.speedtest {
-    border: 0px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    font-size:16px;
-    display: inline-block;
-    position: relative;
-    top: -10px;
-    left: 1100px
-}
 
-.go {
-        width: 300px;
-        height: 300px;
-        border: 5px solid;
-        border-color:#0FB6CC ;
-        border-radius: 50%;
-        display: ruby-text-container;
-        
-    }
-
-    .go {
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin:0px auto;
-        padding:3%
-    }
-    
-    .go h1 {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: #0BB5EA;
-    text-align: center;
-    }
-
-    .texto-servidor {
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 30px;
-        font-weight: bold;
-        color: #0BB5EA;
-        text-align: center;
-        margin-bottom: 20px;
-    }
 
         /* Contacto */
 
@@ -385,8 +334,8 @@ h1 {
     position: absolute;
 }
 
+/* ---------------------------------------------------- */
         /* Tablet */
-
 
     @media (max-width:768px){
 
@@ -425,7 +374,6 @@ h1 {
         justify-content: space-evenly;
         align-items: center;
         
-        
         }
         .footer-3 {
         display: flex;
@@ -452,10 +400,15 @@ h1 {
             grid-template-rows:repeat(2,1fr);
         }
 
+        .cobertura h1 {
+            
+            font-size:25px;
+        }
+
         }
 
 
-
+/* ------------------------------------------------ */
 
 
        /* Mobile */
@@ -527,10 +480,40 @@ footer {
         padding-top: 20px;
         margin-right: 5px;}
 
+        /* Cobertura */
 
+        .cobertura {
+        background-position: center;
+        background-repeat: no-repeat;}
+        
+        .cobertura-h1 {
+            padding: 10px;
+            font-size: 16px;
 
-
-
-
+        }
+        
+        
+        .grid-cobertura {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows:repeat(2,1fr);
+        }
+        
+        .mapa-zona-este {
+            width: 300px;
+            height: 300px;
+            grid-column: 1/2;
+            grid-row: 1/1;
+            padding: 20px;
+        }
+        
+        .mapa-texto {
+            grid-column: 1/2;
+            grid-row:2/2;
+            font-size: 12px;
+            padding-top: 15px;
+            padding: 20px;
+        
+        }
 
     }
