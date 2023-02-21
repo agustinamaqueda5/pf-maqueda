@@ -21,7 +21,8 @@ Background: #EDEFF9
 
 body {
     overflow-x: hidden;
-    background-color:#EDEFF9
+    background-color:#EDEFF9;
+    
 }
 
 li {
@@ -168,7 +169,7 @@ footer section img {
     text-align: center;}
 
 
-h1 {
+.h1-planes {
     color: #17af95;
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
@@ -187,7 +188,12 @@ h1 {
     
 }
 
-.cobertura-h1 {
+.h1-cobertura {
+    color: #17af95;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
     padding-top: 50px;
 }
 
@@ -227,9 +233,17 @@ h1 {
 
         /* Contacto */
 
+    .contacto-background {
+        background-color: white;
+    }
 
-    .contacto-h1 {
-        padding: 10px;
+    .h1-contacto {
+    color: #17af95;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+        padding: 30px;
     }
     .contacto-1 {
         font-family:'Ubuntu', sans-serif;
@@ -239,23 +253,44 @@ h1 {
         
     }
 
+    .contacto-contenedor-ppl {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows:repeat(1,1fr);
+    }
+
+    .contacto-contenedor-img img{
+        width: 30px;
+        height: 30px;
+        margin-left: 90px;}
+        
+    
+    .contacto-contenedor-texto {
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+
+    .contacto-contenedor-mapa {
+        grid-column: 4/6;
+        grid-row: 1/3;
+        width: 70%;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
     .contacto-2 {
         font-family:'Ubuntu', sans-serif;
         font-size: 16px;
         font-weight: lighter;
         color:#1a1449;
         line-height: 50px;
-        
-
-    }
+        }
 
     .contacto-3 {
         font-family:'Ubuntu', sans-serif;
         font-size: 16px;
         font-weight: bold;
         color:#0FB6CC;
-        
-    }
+        }
 
     .contacto-4 {
         font-family:'Ubuntu', sans-serif;
@@ -270,8 +305,7 @@ h1 {
         font-size: 16px;
         font-weight: bold;
         color:#0FB6CC;
-        
-    }
+        }
 
     .contacto-6 {
         font-family:'Ubuntu', sans-serif;
@@ -297,42 +331,32 @@ h1 {
         line-height: 50px;
     }
 
-    .contacto-contenedor {
-        position: relative;
-        left: 70px;
-    }
 
-.pin-contacto {
-    height: 30px;
-    width: 30px;
+    .pin-contacto {
+
     top: 305px;
     left: 60px;
     position: absolute;
 }
 
-.mail-contacto {
-    height: 30px;
-    width: 30px;
+    .mail-contacto {
+
     top: 380px;
     left: 60px;
     position: absolute;
 }
 
-.phone-contacto {
-    height: 30px;
-    width: 30px;
+    .phone-contacto {
     top: 450px;
     left: 60px;
     position: absolute;
 }
 
-.whatsapp-contacto {
-    height: 30px;
-    width: 30px;
+    .whatsapp-contacto {
     top: 516px;
     left: 60px;
     position: absolute;
-}
+} 
 
 /* ---------------------------------------------------- */
         /* Tablet */
@@ -357,7 +381,7 @@ h1 {
         footer {
         height: 300px;
         padding-top: 50px;
-        font-size: 28px;
+        font-size: 20px;
         font-family:'Ubuntu', sans-serif;
         }
         .footer-1 {
@@ -400,10 +424,60 @@ h1 {
             grid-template-rows:repeat(2,1fr);
         }
 
-        .cobertura h1 {
-            
+        .cobertura h1 { 
             font-size:25px;
         }
+
+           /* Contacto */
+
+    .h1-contacto {
+    font-size: 30px;
+    }
+    
+
+    .contacto-contenedor-img img{
+        width: 30px;
+        height: 30px;
+        margin-left: 50px;}
+        
+    
+    .contacto-contenedor-texto {
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+
+    .contacto-contenedor-mapa iframe {
+        grid-column: 4/6;
+        grid-row: 1/3;
+        width: 350px;
+        height: 350px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .pin-contacto {
+    top: 305px;
+    left: 60px;
+    position: absolute;
+}
+
+    .mail-contacto {
+    top: 380px;
+    left: 60px;
+    position: absolute;
+}
+
+    .phone-contacto {
+    top: 450px;
+    left: 60px;
+    position: absolute;
+}
+
+    .whatsapp-contacto {
+    top: 516px;
+    left: 60px;
+    position: absolute;
+} 
 
         }
 
