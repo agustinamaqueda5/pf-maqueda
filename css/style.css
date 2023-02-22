@@ -184,7 +184,7 @@ footer section img {
 .cobertura {
     background-image: url(../assets/img/background-cobertura.png);
     background-attachment: fixed;
-   
+    
     
 }
 
@@ -434,7 +434,6 @@ footer section img {
     font-size: 30px;
     }
     
-
     .contacto-contenedor-img img{
         width: 30px;
         height: 30px;
@@ -456,30 +455,37 @@ footer section img {
     }
 
     .pin-contacto {
-    top: 305px;
-    left: 60px;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    
 }
 
     .mail-contacto {
-    top: 380px;
-    left: 60px;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+   
 }
 
     .phone-contacto {
-    top: 450px;
-    left: 60px;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
 }
 
     .whatsapp-contacto {
-    top: 516px;
-    left: 60px;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    
 } 
 
-        }
+    }
 
 
 /* ------------------------------------------------ */
@@ -587,7 +593,107 @@ footer {
             font-size: 12px;
             padding-top: 15px;
             padding: 20px;
-        
         }
+
+                /* Contacto */
+
+    .contacto-background {
+        background-color: white;
+    }
+
+    .h1-contacto {
+    font-size: 20px;
+    }
+
+    .contacto-contenedor-ppl {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:repeat(1,1fr);
+    }
+
+    .contacto-contenedor-texto {
+        grid-column: 1/2;
+        grid-row: 1/1;
+        text-align: center;
+        
+    }
+
+    .contacto-contenedor-img img{
+        width: 20px;
+        height: 20px;
+        margin-left: -28px;
+        margin-top: 30px;
+    }
+
+    .contacto-contenedor-mapa iframe {
+        width: 280px;
+        height: 400px;
+        padding-top: -80px;
+    }
+
+
+    .contacto-contenedor-mapa {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding-left: 20px;
+        height: 400px;
+    }
+
+        .contacto-2 {
+        font-size: 14px;
+        }
+
+    .contacto-3 {
+        font-size: 14px;
+        }
+
+    .contacto-4 {
+        font-size: 14px;
+    }
+
+    .contacto-5 {
+        font-size: 14px;
+        }
+
+    .contacto-6 {
+        font-size: 14px;
+    }
+
+    .contacto-7 {
+        font-size: 14px;
+        
+    }
+
+    .contacto-8 {
+        font-size: 14px;
+    }
+
+    .pin-contacto {
+    top: 305px;
+    left: 60px;
+    position: absolute;
+}
+
+    .mail-contacto {
+    top: 425px;
+    left: 60px;
+    position: absolute;
+    
+}
+
+    .phone-contacto {
+    top: 500px;
+    left: 60px;
+    position: absolute;
+   
+}
+
+    .whatsapp-contacto {
+    top: 570px;
+    left: 60px;
+    position: absolute;
+    
+    
+} 
 
     }
