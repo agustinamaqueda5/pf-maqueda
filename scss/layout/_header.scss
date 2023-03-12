@@ -1,0 +1,32 @@
+body{
+    background-color: #EDEFF9;
+}
+header{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0px;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a1449;
+    padding: 20px 10px;
+}
+.container-fluid {
+    div {
+        width: 100%;
+    }
+}
+.container-fluid {
+    img{
+        width: 50%;
+    }
+}
+.navbar {
+    li{
+        a{
+            color: #1a1449;
+        }
+    }
+}
