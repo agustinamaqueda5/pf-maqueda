@@ -1,0 +1,43 @@
+.grid {
+    display: grid;
+    grid-template-columns:repeat(6, 1fr) ;
+    grid-template-rows: repeat(7, 70px);
+    gap: 10px;
+
+}
+.plan-1 {
+    background-color: white;
+    grid-column: 2/4;
+    grid-row: 2/8;
+    border-style:solid;
+    border-color: black;
+    padding-top: 40px;
+    color: $azul-sitio;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+.plan-2 {
+    @extend .plan-1;
+    grid-column: 4/6;
+    grid-row: 2/8;
+    
+}
+.sub {
+    color:$azul-sitio;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;}
+
+
+.h1-planes {
+    color: $verde-agua-sitio;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;} 
