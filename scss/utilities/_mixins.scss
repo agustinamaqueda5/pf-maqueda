@@ -1,5 +1,19 @@
-$font-family:'Ubuntu', sans-serif;
-$font-size-diapo-carrusel-info: 16px;
-$azul-sitio: #1a1449;
-$verde-agua-sitio: #17af95;
-$celeste-sitio:#0BB5EA;
+@mixin reset {
+    *{margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+}
+
+@mixin fonts-titulo {
+    font-family: $font-family;
+    color: $azul-sitio;
+    font-weight: bold;
+}
+
+@mixin img-1-hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}

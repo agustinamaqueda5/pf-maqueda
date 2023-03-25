@@ -1,25 +1,24 @@
 
-.portada{
-        background-image: url(../assets/img/Carrusel-EastNet-Portada.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
+.portada section{
+        background-image: url(../assets/img/EastNet-Portada.jpg);
+        background-size:cover;
+        height: 700px;
+        width: 100%; 
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-    div {
-        grid-column: 4/10;
-        grid-row: 2/4;
-        padding-top: 50px;
+        grid-template-rows: repeat(10, 1fr);
+        margin-bottom: 50px;
+        margin-top: 50px;
         h1 {
+            @include fonts-titulo;
         font-size:65px;
-        font-family:$font-family;
-        font-weight: bolder;
-        color: #1a1449;
         text-align: center;
+        padding-left: 50px;
+        grid-column: 4/10;
+        grid-row: 4/6;
         }
     }
-   
-}
+
 .background-elegirnos section{
     background-image: url(../assets/img/Carrusel-elegirnos.png);
     background-size:cover;
@@ -27,7 +26,7 @@
     width: 100%;  
 }
 .elegirnos{
-    
+    font-family: $font-family;
     height: 100%;
     width: 100%;
     display: grid;
@@ -54,6 +53,7 @@
     grid-row: 3/5;
     padding-right: 30px;
     padding-top: 50px;
+    line-height: 30px;
     h3 {
         color: white;
         font-family: $font-family;
@@ -69,6 +69,7 @@
     grid-column: 5/9;
     grid-row: 3/5;
     padding:50px;
+    line-height: 30px;
     h3{
         color: white;
         font-size: 20px;
@@ -83,13 +84,14 @@
 }
 
 .background-residenciales section{
-    background-image: url(../assets/img/Carrusel-residenciales.jpg);
+    background-image: url(../assets/img/Carrusel-residenciales.jpg); 
     background-size:cover;
     height: 500px;
     width: 100%;  
     margin-top: 50px;
 }
 .residenciales{
+    font-family: $font-family;
     height: 100%;
     width: 100%;
     display: grid;
@@ -111,10 +113,7 @@
     }
 }
 .lista-3{
-    grid-column: 2/5;
-    grid-row: 3/5;
-    padding-right: 30px;
-    padding-top: 50px;
+    @extend .lista-1;
     h3{
         color: white;
         font-size: 20px;
@@ -127,9 +126,7 @@
     }
 }
 .lista-4{
-    grid-column: 5/9;
-    grid-row: 3/5;
-    padding:50px;
+    @extend .lista-2;
     h3{
         color: white;
         font-size: 20px;
@@ -143,13 +140,14 @@
     }
 
     .background-empresariales{
-        background-image: url(../assets/img/Carrusel-empresariales.jpg);
+    background-image: url(../assets/img/Carrusel-empresariales.jpg);
     background-size:cover;
     height: 500px;
     width: 100%;  
     margin-top: 50px;
     }
     .empresariales {
+    font-family: $font-family;
     height: 100%;
     width: 100%;
     display: grid;
@@ -171,10 +169,7 @@
 }
 
 .lista-5{
-    grid-column: 2/5;
-    grid-row: 3/5;
-    padding-right: 30px;
-    padding-top: 50px;
+    @extend .lista-1;
     h3{
         color: white;
         font-size: 20px;
@@ -187,9 +182,7 @@
     }
 }
 .lista-6{
-    grid-column: 5/9;
-    grid-row: 3/5;
-    padding:50px;
+  @extend .lista-2;
     h3{
         color: white;
         font-size: 20px;
@@ -201,9 +194,6 @@
         font-size: 18px;
     }
 }
-
-    
-   
 
 
 

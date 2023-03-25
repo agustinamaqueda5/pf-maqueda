@@ -8,8 +8,10 @@ footer{
 }
 .container{
     display: flex;
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 20px;
+    margin-left: 50px;
     text-align: left;
     h4{
         font-size: 15px;
@@ -43,4 +45,6 @@ footer{
 }
 .redes{
     text-align: center;
+    display: flex;
+    letter-spacing: 10px;
 }
